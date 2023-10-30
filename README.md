@@ -52,7 +52,7 @@ This appends the latest interaction to `conversation.json`, ensuring you maintai
 Before you begin, make sure you've set up the API key by modifying the `brainbridge.py` script:
 
 ```python
-openai.api_key = 'YOUR_API_KEY'
+[neuralapi api_key](neuralapi.api_key) = 'YOUR_API_KEY'
 ```
 
 Replace `'YOUR_API_KEY'` with your actual API key.
@@ -60,3 +60,7 @@ Replace `'YOUR_API_KEY'` with your actual API key.
 ## Contributions & Feedback
 
 We welcome contributions and feedback on how to improve BrainBridge. Please open an issue or submit a PR on our [GitHub repository](#).
+
+## Licence
+
+Check out the GOS licence in this project.
