@@ -21,10 +21,12 @@ brainbridge/
 
 ## Installation
 
-To install BrainBridge, use `pip`:
+To install BrainBridge, clone the repo and use `pip`:
 
 ```bash
-pip install brainbridge
+git clone https://github.com/m-c-frank/brainbridge
+cd brainbridge
+pip install .
 ```
 
 ## Usage
@@ -49,13 +51,9 @@ This appends the latest interaction to `conversation.json`, ensuring you maintai
 
 ## Configuration
 
-Before you begin, make sure you've set up the API key by modifying the `brainbridge.py` script:
+Before you begin, make sure you've set up the API in your environment variable
 
-```python
-[neuralapi api_key](neuralapi.api_key) = 'YOUR_API_KEY'
-```
-
-Replace `'YOUR_API_KEY'` with your actual API key.
+Or just replace `'YOUR_API_KEY'` with your actual API key.
 
 ## Contributions & Feedback
 
